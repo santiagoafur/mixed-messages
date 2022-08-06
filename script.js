@@ -13,3 +13,5 @@ const pickRandom = array => {
 const mixedMessage = () => {
     console.log(`In ${pickRandom(year)}, ${pickRandom(scientists)} ${pickRandom(discoveries)}, considered one of the greatest breakthroughs of the humanity.`);
 }
+
+mixedMessage();
